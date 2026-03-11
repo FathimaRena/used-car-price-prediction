@@ -9,7 +9,11 @@ import seaborn as sns
 # ------------------------------
 # Load Model
 # ------------------------------
-model_path = os.path.join(os.path.dirname(__file__), "..", "models", "best_model.pkl")
+
+
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+model_path = os.path.join(BASE_DIR, "models", "best_model.pkl")
+
 model = pickle.load(open(model_path, "rb"))
 
 # ------------------------------
