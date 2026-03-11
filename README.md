@@ -1,4 +1,4 @@
-# 🚗 Used Car Price Prediction
+#  Used Car Price Prediction
 
 A Machine Learning web application that predicts the resale value of used cars based on various features such as year, fuel type, kilometers driven, and transmission.
 
@@ -6,7 +6,7 @@ The project includes **data preprocessing, feature engineering, model comparison
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 Used car prices depend on many factors such as vehicle age, mileage, fuel type, and ownership history.
 This project uses **machine learning models** to estimate the resale value of a used car.
@@ -19,7 +19,7 @@ The application allows users to:
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 * **Python**
 * **Pandas**
@@ -32,7 +32,7 @@ The application allows users to:
 
 ---
 
-## 🧠 Machine Learning Models Used
+## Machine Learning Models Used
 
 The following models were trained and evaluated:
 
@@ -45,19 +45,19 @@ The **best performing model is saved and used for predictions.**
 
 ---
 
-## 📊 Features of the Application
+## Features of the Application
 
-### 1️⃣ Data Analysis
+### Data Analysis
 
 * Selling price distribution
 * Fuel type vs selling price
 
-### 2️⃣ Model Performance
+### Model Performance
 
 * Comparison of ML models
 * R² score visualization
 
-### 3️⃣ Price Prediction
+### Price Prediction
 
 Users can input:
 
@@ -73,7 +73,7 @@ The system predicts the **estimated resale value of the car.**
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 used-car-price-prediction
@@ -105,7 +105,7 @@ used-car-price-prediction
 
 ---
 
-## 🚀 Running the Project Locally
+##  Running the Project Locally
 
 ### 1️⃣ Clone the repository
 
@@ -139,7 +139,7 @@ streamlit run streamlit_app/app.py
 
 ---
 
-## 📈 Example Prediction Workflow
+##  Example Prediction Workflow
 
 1. User enters car details
 2. Features are processed
@@ -148,7 +148,7 @@ streamlit run streamlit_app/app.py
 
 ---
 
-## 🌐 Future Improvements
+## Future Improvements
 
 * Hyperparameter tuning
 * Additional dataset features
